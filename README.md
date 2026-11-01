@@ -1,4 +1,4 @@
-# aiand-com
+# ai&
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aiand-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aiand.com/
+ai& is a Japan‑based, inference‑first intelligence company built across the full stack, delivering OpenAI‑compatible inference APIs with built‑in billing, low latency, and no cross‑border data egress. We put what AI makes possible within everyone’s reach, offering chat, completions, vision, video, and tool‑calling capabilities. Meet ai&, explore our approach, latest news, leadership, and careers.
+
+**Areas:** AI · Japan · Inference · MachineLearning · Startup
+
+## ai& on APIs.io
+
+Everything profiled for ai& is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aiand-com/](https://apis.io/providers/aiand-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [ai& Files API](https://apis.io/apis/aiand-com/aiand-com-files-api/) — The files API from ai& — 3 operation(s) for files.
+- [ai& Logs API](https://apis.io/apis/aiand-com/aiand-com-logs-api/) — The logs API from ai& — 4 operation(s) for logs.
+- [ai& Openai API](https://apis.io/apis/aiand-com/aiand-com-openai-api/) — The openai API from ai& — 3 operation(s) for openai.
+- [ai& Uploads API](https://apis.io/apis/aiand-com/aiand-com-uploads-api/) — The uploads API from ai& — 4 operation(s) for uploads.
+- [ai& Videos API](https://apis.io/apis/aiand-com/aiand-com-videos-api/) — The videos API from ai& — 6 operation(s) for videos.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aiand Com Agentic Access](https://apis.io/agentic-access/aiand-com/aiand-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateChatCompletionRequest](https://apis.io/schemas/aiand-com/aiand-com-create-chat-completion-request/)
+- [CreateChatCompletionResponse](https://apis.io/schemas/aiand-com/aiand-com-create-chat-completion-response/)
+- [CreateResponseRequest](https://apis.io/schemas/aiand-com/aiand-com-create-response-request/)
+- [CreateResponseResponse](https://apis.io/schemas/aiand-com/aiand-com-create-response-response/)
+- [CreateVideoJobRequest](https://apis.io/schemas/aiand-com/aiand-com-create-video-job-request/)
+- [VideoJobObject](https://apis.io/schemas/aiand-com/aiand-com-video-job-object/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aiand Com Context](https://apis.io/jsonld/aiand-com/aiand-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ai& API Rules](https://apis.io/rules/aiand-com/aiand-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aiand Com Authentication](https://apis.io/security/aiand-com/aiand-com-authentication/)
+- [Aiand Com Domain Security](https://apis.io/security/aiand-com/aiand-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Aiand Com Scopes](https://apis.io/scopes/aiand-com/aiand-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aiand Com Plans Pricing](https://apis.io/plans/aiand-com/aiand-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.aiand.com/)
+- [Documentation](https://docs.aiand.com/)
+- [Getting started](https://docs.aiand.com/getting-started/)
+- [API reference](https://docs.aiand.com/)
+- [Pricing](https://docs.aiand.com/models/pricing/)
+- [Support](https://www.aiand.com/contact)
+- [Blog](https://www.aiand.com/newsroom)
+- [Terms of service](https://www.aiand.com/legal/terms-of-service)
+- [Privacy policy](https://www.aiand.com/legal/privacy-policy)
+- [Status](https://status.aiand.com/)
+
+## API Evangelist rating
+
+**Kin Score 57.8** — strong · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 31.6 |
+
+**Agent readiness 61.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aiand-com/](https://apis.io/providers/aiand-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ai&: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aiand-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
