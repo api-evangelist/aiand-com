@@ -66,7 +66,7 @@
 
 ai& is a Japan‑based, inference‑first intelligence company built across the full stack, delivering OpenAI‑compatible inference APIs with built‑in billing, low latency, and no cross‑border data egress. We put what AI makes possible within everyone’s reach, offering chat, completions, vision, video, and tool‑calling capabilities. Meet ai&, explore our approach, latest news, leadership, and careers.
 
-**Areas:** AI · Japan · Inference · MachineLearning · Startup
+**Areas:** Artificial Intelligence · Japan · Inference · Machine Learning · Startups
 
 ## ai& on APIs.io
 
@@ -88,17 +88,26 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aiand Com Agentic Access](https://apis.io/agentic-access/aiand-com/aiand-com-agentic-access/)
+- [ai& Agentic Access](https://apis.io/agentic-access/aiand-com/aiand-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (15)
 
 The data models the API reads and writes.
 
+- [AddUploadPartRequest](https://apis.io/schemas/aiand-com/aiand-com-add-upload-part-request/)
+- [CompleteUploadRequest](https://apis.io/schemas/aiand-com/aiand-com-complete-upload-request/)
 - [CreateChatCompletionRequest](https://apis.io/schemas/aiand-com/aiand-com-create-chat-completion-request/)
 - [CreateChatCompletionResponse](https://apis.io/schemas/aiand-com/aiand-com-create-chat-completion-response/)
+- [CreateFileRequest](https://apis.io/schemas/aiand-com/aiand-com-create-file-request/)
 - [CreateResponseRequest](https://apis.io/schemas/aiand-com/aiand-com-create-response-request/)
 - [CreateResponseResponse](https://apis.io/schemas/aiand-com/aiand-com-create-response-response/)
+- [CreateUploadRequest](https://apis.io/schemas/aiand-com/aiand-com-create-upload-request/)
 - [CreateVideoJobRequest](https://apis.io/schemas/aiand-com/aiand-com-create-video-job-request/)
+- [FileDeleted](https://apis.io/schemas/aiand-com/aiand-com-file-deleted/)
+- [FileList](https://apis.io/schemas/aiand-com/aiand-com-file-list/)
+- [FileObject](https://apis.io/schemas/aiand-com/aiand-com-file-object/)
+- [UploadObject](https://apis.io/schemas/aiand-com/aiand-com-upload-object/)
+- [UploadPartObject](https://apis.io/schemas/aiand-com/aiand-com-upload-part-object/)
 - [VideoJobObject](https://apis.io/schemas/aiand-com/aiand-com-video-job-object/)
 
 #### JSON-LD (1)
@@ -117,20 +126,20 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aiand Com Authentication](https://apis.io/security/aiand-com/aiand-com-authentication/)
-- [Aiand Com Domain Security](https://apis.io/security/aiand-com/aiand-com-domain-security/)
+- [ai& Authentication](https://apis.io/security/aiand-com/aiand-com-authentication/)
+- [ai& Domain Security](https://apis.io/security/aiand-com/aiand-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Aiand Com Scopes](https://apis.io/scopes/aiand-com/aiand-com-scopes/)
+- [ai& Scopes](https://apis.io/scopes/aiand-com/aiand-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aiand Com Plans Pricing](https://apis.io/plans/aiand-com/aiand-com-plans-pricing/)
+- [ai& Plans Pricing](https://apis.io/plans/aiand-com/aiand-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -149,25 +158,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.8** — strong · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 54.4** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 61.3 |
-| Contract governance | 79.1 |
-| Operational transparency | 26.3 |
+| Discoverability | 83.9 |
+| Contract quality | 64.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 70.7 |
-| Access clarity | 31.6 |
+| Access clarity | 38.3 |
 
-**Agent readiness 61.1** — agent-ready (gated down from agent-native)
+**Agent readiness 53.7** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | verified |
@@ -176,7 +185,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -186,6 +195,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
 
